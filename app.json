@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "todoApp",
-    "slug": "todoApp",
+    "slug": "todoapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "67530dc3-d4f4-442e-8ca6-f9231b2e40f3"
+      }
+    },
+    "owner": "sojith"
   }
 }
